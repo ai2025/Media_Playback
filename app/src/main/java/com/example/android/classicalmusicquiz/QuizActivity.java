@@ -64,8 +64,10 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
 
+
         // Initialize the player view.
         mPlayerView = (SimpleExoPlayerView) findViewById(R.id.playerView);
+
 
         boolean isNewGame = !getIntent().hasExtra(REMAINING_SONGS_KEY);
 
